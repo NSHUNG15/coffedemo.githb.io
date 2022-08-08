@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    display:block;
+    background-image: url(./img/1.jpg);
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.navbar.nentrang{
+    background-color:wheat !important;
+  }
+  .nav-link.chu{
+    
+    color: black !important;
+  }
+.than{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+.thanhmenu{
+    font-size: 20px;
+}
+.gioithieu1{
+    background-image: url(./img/hinh-anh-cafe-dep.jpg);
+    width: 100%;
+    height: 100%;
+    
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gioithieu1 .form1 {
+    
+    background-color: rgba(0, 0, 0, 0.297);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+}
+.form1 .nd1{
+    width: 900px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 200px;
+    color: white;
+    
+    
+}
+.form1 .nut{
+    position: absolute;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+     font-size: 20px;
+    border-color: white;
+    border-radius: 20px;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.nut:hover{
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+}
+.gioithieu2{
+    background-image: url(./img/moi-ngay-uong-1-ly-ca-phe-co-tot-khong-nen-uong-bao-nhieu-ly-la-tot-nhat-thumb.jpeg);
+    width: 100%;
+    height: 100%;
+    
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gioithieu2 .form2 {
+    
+    background-color: rgba(0, 0, 0, 0.297);
+    width: 100%;
+    height: 100%;
+    
+}
+.form2 .nd2{
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 200px;
+    color: white;
+    
+    
+}
+#danhsach{
+    background-color: rgba(255, 235, 205, 0.503);
+}
+.menu{
+   
+    background-color: rgba(255, 235, 205, 0.503);
+    
+}
+.hop{
+    transform: translateY(220px);
+    width: 300px;
+    height: 100px;
+    border:5px solid ;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #0c1538;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+.hop::before{
+    content: "" ;
+    width: 350px;
+    height: 80px;
+    position: absolute;
+    background: linear-gradient(#00ccff,#d400d4);
+    animation: quay 5s linear infinite;
+}
+@keyframes quay {
+    0%{transform: rotate(0deg);}
+    10%{transform: rotate(36deg);}
+    20%{transform: rotate(72deg);}
+    30%{transform: rotate(108deg);}
+    40%{transform: rotate(144deg);}
+    50%{transform: rotate(180deg);}
+    60%{transform: rotate(216deg);}
+    70%{transform: rotate(252deg);}
+    80%{transform: rotate(288deg);}
+    90%{transform: rotate(324deg);}
+    100%{transform: rotate(360deg);}
+   
+}
+.hop::after{
+    content: "" ;
+    position: absolute;
+    background: rgb(0, 0, 0);
+    inset: 4px;
+    
+}
+.nd{
+    font-size: 50px;
+    color: white;
+    z-index: 5;
+    text-shadow: 0 0 10px #37c9d1,
+    0 0 20px #37c9d1,
+    0 0 80px #37c9d1;
+}
+.hop:hover{
+    box-shadow: 10px 10px 10px;
+}
+
+h4{
+    text-align: center;
+}
+h3{ font-size: 35px;
+    text-align: center;
+    border: 1px solid black;
+    width: 200px;
+    
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius:10px ;
+}
+h5{
+    font-size: 35px;
+   text-align: center;
+   border: 1px solid black;
+   margin: auto;
+    margin-bottom: 20px;
+    border-radius:10px ;
+    width: 450px;
+}
+h5:hover{
+    background-color: black;
+    border-color: white;
+    color: white;
+}
+h3:hover{
+    background-color: black;
+    border-color: white;
+    color: white;
+}
+.dienthoai{
+    width: 50px;
+    height: 60px;
+    position:absolute;
+    margin-left:100px;
+    z-index: 9;
+}
+.nen{
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top:74.5%;
+    left:6.5%;
+    border-radius: 50%;
+    background-color: rgba(255, 7, 7, 0.656)    ;
+    z-index: 8;
+    position: fixed;
+}
+.icon{
+    position: absolute;
+    z-index: 9;
+    font-size: 70px;
+    top: 77.5%;
+    left: 8%;
+    color: white;
+    animation: rung 2s infinite;
+    position: fixed;
+}
+@keyframes rung{
+    0%{ transform: rotate(0);}
+    10% {transform: rotate(-10deg);}
+    20%{ transform: rotate(0);}
+    30% {transform: rotate(-10deg);}
+    40%{ transform: rotate(0);}
+    50% {transform: rotate(-10deg);}
+    60%{ transform: rotate(0);}
+    70% {transform: rotate(-10deg);}
+    80%{ transform: rotate(0);}
+    90% {transform: rotate(-10deg);}
+    100% {transform: rotate(0);}
+}
+.vien{
+    
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    position: absolute;
+    border-radius:50% ;
+    top:68%;
+    left: 3.5%;
+    z-index: 10;
+    animation: s1 2s infinite;
+    position: fixed;
+}
+@keyframes s1{
+    0%{transform: scale(0.5);}
+    100%{transform: scale(1);}
+} 
+
+.uudai{ 
+    
+    /* background-image: url(./img/1.jpg); */
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.lop{
+    background-image: url(./img/1.jpg);
+    color: white;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 25px;
+}
+.lop2{
+    background-image: url(./img/1.jpg);
+    color: white;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 25px;
+}
+h6{
+    font-size: 40px;
+    text-align: center;
+    border: 1px solid black;
+    width: 200px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+h6:hover{
+    color: white;
+    background-color: black;
+}
+h7{
+    margin-left: 20px;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.form{
+    color: white;
+    background-image: url(./img/1.jpg);
+    height: 330px;
+}
+.nutdangky{
+    margin-top: 20px;
+    margin-left: 170px;
+    
+}
+.form{
+    border-radius: 10px;
+}
+.anh{
+    width: 800px;
+    border-radius:20px ;
+    margin-top: 25px;
+}
+.chutext{
+    font-size: 20px;
+    color: black;
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.441);
+    border-radius: 30px ;
+}
+.duongdan{
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    font-size: 20px;
+   
+    background-color:rgba(255, 235, 205, 0.503);
+}
+.bieutuong{
+    font-size: 70px;
+    margin-top: 100px;
+    
+}
+.top{
+    font-size: 60px;
+    color: #a86f28;
+    position: fixed;
+    right: 3%;
+    bottom: 5%;
+    cursor: pointer;
+    visibility: hidden;
+
+}
+.top:hover{
+    color: #a86f28;
+}
+.top.active{
+    visibility: visible;
+
+}
+@media source and (min-width:740px){ 
+  
+
+}
